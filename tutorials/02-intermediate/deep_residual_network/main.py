@@ -9,10 +9,11 @@ import torch
 import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
-
+print(torch.__version__)
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(device)
 
 # Hyper-parameters
 num_epochs = 80

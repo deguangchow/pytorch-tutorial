@@ -5,7 +5,7 @@ from PIL import Image
 
 def resize_image(image, size):
     """Resize an image to the given size."""
-    return image.resize(size, Image.ANTIALIAS)
+    return image.resize(size, Image.LANCZOS)
 
 def resize_images(image_dir, output_dir, size):
     """Resize the images in 'image_dir' and save into 'output_dir'."""

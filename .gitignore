@@ -2,4 +2,9 @@
 *.zip
 data/
 .ipynb_checkpoints
-
+*data/
+*.png
+*.jpg
+runs/
+*.ckpt
+*.pyc
